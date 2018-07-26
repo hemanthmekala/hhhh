@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Area Mapper</string>
+    <string name="area_format">%1$.3f sq m</string>
+    <string name="cancel">CANCEL</string>
+    <string name="loading_gps">Waiting for GPS signal&#8230;</string>
+    <string name="loading_map">Loading map&#8230;</string>
+    <string name="location_accuracy_format">%1$d m</string>
+    <string name="ok">OK</string>
+    <string name="pause">PAUSE</string>
+    <string name="perimeter_format">Perimeter: %1$.3f m</string>
+    <string name="redo">REDO</string>
+    <string name="resume">RESUME</string>
+    <string name="set_location_accuracy">Set minimum location accuracy</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+
+</resources>

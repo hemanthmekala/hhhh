@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="richard.chard.lu.android.areamapper.activities.AreaMapperActivity">
+
+    <include
+        layout="@layout/relativelayout_area_and_settings" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonWhite"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonGreen"
+                android:enabled="false"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/button_stop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonRed"
+                android:visibility="gone"
+                android:text="@string/stop" />
+
+            <Button
+                android:id="@+id/button_pause"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonOrange"
+                android:visibility="gone"
+                android:text="@string/pause" />
+
+            <Button
+                android:id="@+id/button_resume"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonGreen"
+                android:visibility="gone"
+                android:text="@string/resume" />
+
+            <Button
+                android:id="@+id/button_redo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonOrange"
+                android:visibility="gone"
+                android:text="@string/redo" />
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/ActionButtonGreen"
+                android:visibility="gone"
+                android:text="@string/ok" />
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/framelayout_map_and_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
